@@ -48,9 +48,6 @@ main ul li {
   width: 33.3%;
 }
 
-section {
-}
-
 section img{
   display: inline-block;
 }
@@ -61,7 +58,7 @@ article {
   vertical-align: top;
   display: inline-block;
   width: 450px;
-  height: 380px;
+  height: 360px;
   margin-left: 30px;
   overflow-y: auto;
 }
@@ -75,7 +72,24 @@ p {
   font-style: italic;
 }
 
+button {
+  width: 120px;
+  height: 25px;
+  position: relative;
+  display: inline-block;
+  left: 510px;
+  bottom: 60px;
+  background-color: black;
+  color: white
+}
+
+button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
 footer {
+  height: 100px;
   background-color: gray;
   width: 1024px;
 }
