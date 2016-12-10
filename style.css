@@ -1,0 +1,65 @@
+header {
+  overflow: auto;
+  margin: 0, 0, 15px, 0;
+}
+
+nav {
+  /*height: 70px;*/
+  width: 960px;
+  margin-right, margin-left: auto;
+}
+
+nav img {
+  display: inline-block;
+  float: left;
+  margin-right: 30px;
+}
+
+nav ul li {
+  height: 70px;
+  width: 150px;
+  margin-left, margin-right: 30px;
+  float: left;
+  line-height: 70px;
+}
+main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main img {
+  margin: 15px, auto, 15px, auto;
+}
+
+main ul {
+  position: absolute;
+  width: 960px;
+  height: 375px;
+  margin-top, margin-bottom: 15px;
+}
+
+main ul li {
+  float: left;
+  margin-right: ;
+  /*margin-right: 30px;
+  margin-left: 0;*/
+}
+
+
+
+section img{
+  display: inline-block;
+}
+
+article {
+  display: inline-block;
+  width: 480px;
+  height: 380px;
+  overflow-y: auto;
+
+}
+
+
+footer, header {
+  background-color: gray;
+}
